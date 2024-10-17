@@ -8,7 +8,8 @@
 
 body {
     font-family: 'Roboto', sans-serif; /* Use font-family */
-    background-color: #e0e0e0; /* Light gray background-color */
+    background-color: #f4f4f4; /* Single light gray background color */
+    color: #333; /* Single dark gray text color */
     margin: 0;
     padding: 0;
     line-height: 1.6; /* Added line-height for text */
@@ -19,9 +20,8 @@ body {
     grid-column: span 12;
     text-align: left; /* Align text to the left */
     margin-bottom: 50px;
-    background-color: #f5f5f5; /* Light background for the header */
     padding: 20px 40px; /* Add padding for space */
-    max-width: 1200px; /* Center content */
+    max-width: 1200px; /* Limit the width */
     margin-left: auto;
     margin-right: auto;
 }
@@ -31,26 +31,26 @@ body {
     margin-bottom: 10px;
     text-transform: uppercase; /* Use text-transform */
     font-weight: 700; /* Use font-weight */
-    color: #2b6cb0; /* Distinct blue color for the title */
+    color: #333; /* Single text color */
 }
 
 .description {
     font-size: 1.1em; /* Use font-size in em */
-    color: #555;
+    color: #333; /* Single text color */
     max-width: 600px;
     margin: 0 0 20px 0; /* Left aligned but with margins */
 }
 
 /* Link styles */
 a {
-    color: #007BFF; /* Link color */
+    color: #333; /* Single text color */
     text-decoration: none;
     transition-property: color; /* Transition property for hover */
     transition-duration: 0.3s; /* Duration of transition effect */
 }
 
 a:hover {
-    color: #0056b3; /* Hover effect color */
+    color: #555; /* Slightly darker hover effect */
 }
 
 /* Main container grid */
@@ -61,7 +61,7 @@ a:hover {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 20px;
-    background-color: #f5f5f5; /* Light background-color */
+    background-color: #f4f4f4; /* Single background color */
 }
 
 /* First Section */
@@ -79,12 +79,12 @@ a:hover {
     font-size: 2em;
     margin-bottom: 10px;
     text-transform: capitalize;
-    color: #333; /* Use color */
+    color: #333; /* Single text color */
 }
 
 .first-section p {
     max-width: 600px;
-    color: #555;
+    color: #333; /* Single text color */
 }
 
 /* Flexbox Image Grid */
@@ -105,7 +105,7 @@ a:hover {
     width: 100%;
     height: 200px;
     object-fit: cover;
-    border: 5px solid #007BFF; /* Use border */
+    border: 5px solid #333; /* Border with single color */
     transition-property: transform, border-radius; /* Use transition-property */
     transition-duration: 0.3s; /* Use transition-duration */
 }
@@ -123,7 +123,7 @@ a:hover {
 }
 
 .centered img {
-    border: 5px solid #333; /* Use border for the last image */
+    border: 5px solid #333; /* Border with single color */
 }
 
 /* Final Section */
@@ -139,14 +139,14 @@ a:hover {
 
 .final-section h2 {
     font-size: 2em; /* Use font-size */
-    color: #333;
+    color: #333; /* Single text color */
 }
 
 /* Footer Styles */
 .footer {
     grid-column: span 12;
-    background-color: #000; /* Use background-color */
-    color: white; /* Use color */
+    background-color: #f4f4f4; /* Single background color */
+    color: #333; /* Single text color */
     padding: 20px 40px; /* Use padding */
     text-align: center;
 }
