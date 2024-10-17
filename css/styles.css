@@ -18,7 +18,7 @@ body {
 /* Styling for the header section */
 .header {
     grid-column: span 12;
-    text-align: left; /* Align text to the left */
+    text-align: left; /* Ensure text is aligned to the left */
     margin-bottom: 50px;
     padding: 20px 40px; /* Add padding for space */
     max-width: 1200px; /* Limit the width */
@@ -32,6 +32,7 @@ body {
     text-transform: uppercase; /* Use text-transform */
     font-weight: 700; /* Use font-weight */
     color: #333; /* Single text color */
+    text-align: left; /* Ensure h1 is left-aligned */
 }
 
 .description {
@@ -39,6 +40,7 @@ body {
     color: #333; /* Single text color */
     max-width: 600px;
     margin: 0 0 20px 0; /* Left aligned but with margins */
+    text-align: left; /* Ensure description is left-aligned */
 }
 
 /* Link styles */
@@ -47,6 +49,7 @@ a {
     text-decoration: none;
     transition-property: color; /* Transition property for hover */
     transition-duration: 0.3s; /* Duration of transition effect */
+    text-align: left; /* Ensure links are left-aligned */
 }
 
 a:hover {
@@ -80,11 +83,13 @@ a:hover {
     margin-bottom: 10px;
     text-transform: capitalize;
     color: #333; /* Single text color */
+    text-align: left; /* Ensure h2 is left-aligned */
 }
 
 .first-section p {
     max-width: 600px;
     color: #333; /* Single text color */
+    text-align: left; /* Ensure paragraphs are left-aligned */
 }
 
 /* Flexbox Image Grid */
@@ -118,7 +123,7 @@ a:hover {
 
 /* Center the last image and give it a border */
 .centered {
-    text-align: center;
+    text-align: left; /* Left align text in centered section */
     margin: 0 40px; /* Use margin */
 }
 
@@ -140,6 +145,7 @@ a:hover {
 .final-section h2 {
     font-size: 2em; /* Use font-size */
     color: #333; /* Single text color */
+    text-align: left; /* Ensure h2 in final section is left-aligned */
 }
 
 /* Footer Styles */
@@ -148,7 +154,7 @@ a:hover {
     background-color: #f4f4f4; /* Single background color */
     color: #333; /* Single text color */
     padding: 20px 40px; /* Use padding */
-    text-align: center;
+    text-align: left; /* Align footer text to the left */
 }
 
 /* Responsive Breakpoint for 768px */
